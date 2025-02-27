@@ -6,7 +6,7 @@ function noSearchDefaultPageRender() {
   app.innerHTML = `
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
       <div class="content-container">
-        <h1>duckun</h1>
+        <h1>Simple duck</h1>
         <p>Simpler version of <a href="https://unduck.link" target="_blank">Unduck.link</a> using DuckDuckGo's <a href="https://duckduckgo.com/bang.html" target="_blank">bangs.</a></p>
         <div class="url-container"> 
           <p class="url-input">https://u.thatcanoa.org?q=%s</p>
