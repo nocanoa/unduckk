@@ -2,6 +2,24 @@
 
 export const bangs = [
   {
+    c: "search",
+    d: "www.bunnysear.ch",
+    r: 0,
+    s: "Bunny Search",
+    sc: "Search",
+    t: "bs",
+    u: "https://www.bunnysear.ch/search?q={{{s}}}",
+  },
+  {
+    c: "Search",
+    d: "hearch.co",
+    r: 0,
+    s: "Hearch.co",
+    sc: "Search",
+    t: "hc",
+    u: "https://hearch.co/search?q={{{s}}}&category=general",
+  },
+  {
     c: "AI",
     d: "www.t3.chat",
     r: 0,
@@ -13902,15 +13920,6 @@ export const bangs = [
     sc: "Academic",
     t: "bsb",
     u: "https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&BaseURL=https%3a%2f%2fopacplus.bsb-muenchen.de%2fInfoGuideClient%2fstart.do%3fLogin%3dopacext&Query=-1=%22{{{s}}}%22",
-  },
-  {
-    c: "Shopping",
-    d: "www.bing.com",
-    r: 25,
-    s: "Bing Shopping",
-    sc: "Online",
-    t: "bs",
-    u: "https://www.bing.com/shop?q={{{s}}}",
   },
   {
     c: "Tech",
@@ -49156,15 +49165,6 @@ export const bangs = [
     sc: "Reference (science)",
     t: "hbz",
     u: "http://okeanos-www.hbz-nrw.de/F/?func=find-c&ccl_term=WRD%3D%22{{{s}}}%22",
-  },
-  {
-    c: "Entertainment",
-    d: "www.holidaycheck.de",
-    r: 3,
-    s: "HolidayCheck",
-    sc: "Games (WOW)",
-    t: "hc",
-    u: "http://www.holidaycheck.de/schnellsuche.php?q={{{s}}}",
   },
   {
     c: "Tech",
