@@ -83,11 +83,12 @@ textarea {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-top: 16px;
 }
 
 /* Add this new style */
 .content-container {
+  display: grid;
+  gap: 0.7rem;
   max-width: 36rem;
   text-align: center;
   padding: 0 8px;

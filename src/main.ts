@@ -11,12 +11,12 @@ function noSearchDefaultPageRender() {
         <div class="url-container"> 
           <p class="url-input">https://u.thatcanoa.org?q=%s</p>
         </div>
+        <p>If u whant to set a diferent default search engine u can set it in localstorage with the key "default-bang".</p>
       </div>
       <footer class="footer">
         <a href="https://github.com/nocanoa/unduckk" target="_blank">github</a>
         •
         <a href="https://github.com/t3dotgg/unduck" target="_blank">theo github</a>
-
       </footer>
     </div>
   `;
