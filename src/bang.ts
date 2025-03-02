@@ -43,7 +43,7 @@ export const bangs = [
     r: 0,
     s: "Kagi search",
     sc: "Search",
-    t: "kagi",
+    t: "kg",
     u: "https://kagi.com/search?q={{{s}}}",
   },  
   {
@@ -61,7 +61,7 @@ export const bangs = [
     r: 0,
     s: "Bunny Search",
     sc: "Search",
-    t: "ki",
+    t: "bs",
     u: "https://www.bunnysear.ch/search?q={{{s}}}",
   },
   {
@@ -58103,15 +58103,6 @@ export const bangs = [
     sc: "Downloads (code)",
     t: "kgitlab",
     u: "https://invent.kde.org/search?utf8=\u2713&snippets=&scope=&search={{{s}}}",
-  },
-  {
-    c: "Entertainment",
-    d: "kg-portal.ru",
-    r: 5,
-    s: "KG-Portal",
-    sc: "Movies",
-    t: "kg",
-    u: "http://kg-portal.ru/?search&s_str= {{{s}}}",
   },
   {
     c: "Entertainment",
